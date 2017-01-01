@@ -1,0 +1,17 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+# {{ page.title }}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et eros pretium, tristique orci a, pharetra elit. Phasellus tincidunt viverra urna at placerat. Etiam et urna at purus pellentesque tempor.
+
+## Heading 2
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et eros pretium, tristique orci a, pharetra elit. Phasellus tincidunt viverra urna at placerat. Etiam et urna at purus pellentesque tempor.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et eros pretium, tristique orci a, pharetra elit. Phasellus tincidunt viverra urna at placerat. Etiam et urna at purus pellentesque tempor.
+
+
