@@ -6,9 +6,11 @@ permalink: /contact/
 
 # {{ page.title }}
 
-email: mastash3ff@github.com
+### Email: brandon@bsheffield.com
 
-## Heading 2
+### LinkedIn: <https://www.linkedin.com/in/brandon-sheffield>
+
+
 
 
 
