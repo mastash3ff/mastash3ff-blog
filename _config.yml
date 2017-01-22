@@ -20,7 +20,7 @@ email: brandon@bsheffield.com
 description: > #Another place on the internet for how-tos aimed at sharing
   information about open source development and tools.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://bsheffield.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: bshefield2008
