@@ -14,18 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-name: mastash3ff blog
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Website of Brandon Sheffield - mastash3ff 
+name: mastash3ff's website
+email: brandon@bsheffield.com
+description: > #Another place on the internet for how-tos aimed at sharing
+  information about open source development and tools.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bsheffield.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-email: mastash3ff@github.com
 twitter_username: bshefield2008
 github_username:  mastash3ff
 
@@ -36,7 +33,7 @@ defaults:
    values:
           layout: "post"
 
-version: "1.0.1"
+version: "1.0.2"
 
 # Build settings
 markdown: kramdown
@@ -57,5 +54,6 @@ include: ['_pages']
 
 permalink: prety
 
-ga_analytics: #
+ga_analytics: #insert google analytics here
+
 
