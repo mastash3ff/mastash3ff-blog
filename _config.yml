@@ -33,7 +33,7 @@ defaults:
    values:
           layout: "post"
 
-version: "1.0.2"
+version: "1.0.3"
 
 # Build settings
 markdown: kramdown
@@ -51,8 +51,6 @@ paginate: 8
 paginate_path: /page:num/
 
 include: ['_pages']
-
-permalink: prety
 
 ga_analytics: #insert google analytics here
 
