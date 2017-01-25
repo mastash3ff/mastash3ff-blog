@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Just another guy giving back, hopefully, useful information to the community surrounding the technologies I use.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Born and raised near Panama City, Florida in the USA.  Enjoys learning, motorcycle riding, rock music, and video games.  Bachelor's in Computer Science from Florida State University.  Aspiring one day to obtain Masters in Computer Science with a Machine Learning specialization.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Music I like to listen to:  Phinehas, Fit For A King, Sonic Syndicate, The Unguided, and In Flames.
+
+Podcasts I listen to:  [The Changelog](https://changelog.com/podcast) and [Data Skeptic](http://dataskeptic.com/).
