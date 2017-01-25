@@ -10,7 +10,7 @@ permalink: /contact/
 
 ### LinkedIn: <https://www.linkedin.com/in/brandon-sheffield>
 
-
+### Twitter that I never use:  https://twitter.com/Bsheffield2008
 
 
 
