@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "TODO"
+title:  "How to Install Jekyll on Xubuntu"
 date:   2017-06-29 13:10:00 -0600
 categories: how, to, install, jekyll, xubuntu, ubuntu
-permalink: installing_jekyll_xubuntu
+permalink: /installing_jekyll_xubuntu/
 ---
 
 ## Installation
