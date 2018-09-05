@@ -3,7 +3,7 @@ layout: post
 title:  "Hosting a Website for Cheap Part 1"
 date:   2017-01-21 8:39:51 -0600
 categories: jekyll, github, aws, route 53, github pages
-permalink: hosting_for_cheap_part1
+permalink: /hosting_for_cheap_part1/
 ---
 
 ## Why Jekyll
