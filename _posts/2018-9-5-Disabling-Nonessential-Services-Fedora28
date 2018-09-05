@@ -1,0 +1,94 @@
+# Non-essential Services to Uninstall from Fedora 28
+
+Below shows a snapshot of the running services running on my new Fedora28 install along with Docker installed.
+
+[bsheffield@home ~]$ sudo systemd-analyze blame
+[sudo] password for bsheffield: 
+         31.888s docker.service
+         26.465s bolt.service
+         25.791s akmods.service
+         25.605s plymouth-quit-wait.service
+         23.520s dkms.service
+         14.929s NetworkManager-wait-online.service
+         12.752s firewalld.service
+          9.576s udisks2.service
+          8.542s accounts-daemon.service
+          6.676s lvm2-monitor.service
+          6.044s systemd-udev-settle.service
+          5.977s dev-mapper-fedora_localhost\x2d\x2dlive\x2droot.device
+          5.548s libvirtd.service
+          4.947s systemd-journal-flush.service
+          4.459s abrtd.service
+          4.395s polkit.service
+          4.035s initrd-switch-root.service
+          3.354s ModemManager.service
+          3.120s dracut-initqueue.service
+          3.058s packagekit.service
+          3.044s rtkit-daemon.service
+          3.034s systemd-logind.service
+          3.028s systemd-machined.service
+          2.707s gssproxy.service
+          2.348s avahi-daemon.service
+          2.241s chronyd.service
+          1.960s livesys-late.service
+          1.715s NetworkManager.service
+          1.591s fwupd.service
+          1.135s systemd-udevd.service
+           970ms systemd-vconsole-setup.service
+           941ms colord.service
+           841ms fedora-readonly.service
+         31.888s docker.service
+         26.465s bolt.service
+         25.791s akmods.service
+         25.605s plymouth-quit-wait.service
+         23.520s dkms.service
+         14.929s NetworkManager-wait-online.service
+         12.752s firewalld.service
+          9.576s udisks2.service
+          8.542s accounts-daemon.service
+          6.676s lvm2-monitor.service
+          6.044s systemd-udev-settle.service
+          5.977s dev-mapper-fedora_localhost\x2d\x2dlive\x2droot.device
+          5.548s libvirtd.service
+          4.947s systemd-journal-flush.service
+          4.459s abrtd.service
+          4.395s polkit.service
+          4.035s initrd-switch-root.service
+          3.354s ModemManager.service
+          3.120s dracut-initqueue.service
+          3.058s packagekit.service
+          3.044s rtkit-daemon.service
+          3.034s systemd-logind.service
+          3.028s systemd-machined.service
+
+## Going down the list disabling services
+
+Some names stand out immedately:  **bolt** and **ModemManager**.
+
+- **bolt** is a Thunderbolt service for devices capable of Thunderbolt like the Pixel Android phone device.
+
+- **ModemManager** is for modem when a omodem is directly connected to the desktop.
+
+A simple disabling of the service is not good enough for **bolt** as it start again automatically after reboot.  You have to **mask** it so it will permanately be disabled like so:
+
+```bash
+sudo systemctl mask bolt
+```
+
+```bash
+sudo systemctl disable ModemManager
+```
+
+- **avahi.daemon**  Used for discovering devices on the network such as a printer.  I personally don't need.
+
+```bash
+sudo systemctl disable avahi-daemon
+```
+
+- **gssproxy** Googling this brought up a lot of top page results of broken package and it being a RPC mechanism as well as a authentication mechanism for a computer being on a  Windows environment running Kerberos.  Really, I have no clue what this is even for so that's a good candidate for disabling.
+
+```bash
+sudo systemctl disable gssproxy
+```
+
+
