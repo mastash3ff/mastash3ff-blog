@@ -6,7 +6,7 @@ permalink: /contact/
 
 # {{ page.title }}
 
-### Email: brandon@bsheffield.com
+### Email: brandon@sheffconsulting.com
 
 ### LinkedIn: <https://www.linkedin.com/in/brandon-sheffield>
 
