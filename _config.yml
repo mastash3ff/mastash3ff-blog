@@ -7,13 +7,16 @@
 
 title: Website of Brandon Sheffield - mastash3ff
 name: mastash3ff's website
-email: brandon@bsheffield.com
+email: brandon@sheffconsulting.com
+
 description: > #Another place on the internet for how-tos aimed at sharing
   information about open source development and tools.
-  baseurl: "/" # the subpath of your site, e.g. /blog
-  url: "http://bsheffield.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username: bshefield2008
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "http://sheffconsulting.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: bsheffield2008
 github_username:  mastash3ff
 
 defaults:

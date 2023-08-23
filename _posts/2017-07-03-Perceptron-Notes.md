@@ -3,7 +3,7 @@ layout: post
 title:  "Perceptron Notes"
 date:   2017-07-03 07:00:00 -0600
 categories: perceptron, machine learning
-permalink: pretty
+permalink: /perceptron_notes/
 ---
 
 ## Short History
@@ -12,6 +12,23 @@ Machine learning and artificial intelligence have one significant shared goal th
 
 ## Terminology
 
-activiation function - a linear combination of input values,x, and corresponding weight vectors,w, and z is called the net input such that:
+Activation Function - a linear combination of input values(x), corresponding weight vectors(w), which equals the net input(z) such that $$ z = w_1x_1 + ... + w_mx_m $$
 
-$$ z = w_1x_1 + ... + w_mx_m $$
+Learning Rate - a constant between 0.0 and 1.0 that controls how dramatic the weights are updated.
+
+Epochs - Number of passes over a training dataset
+
+Vectorization - An elemental arithmetic operation is automatically applied to all elements in an array.
+
+OvA(One-vs-All) - A technique used to extend a binary classifier to multi-class problems where the particular class is treated as the positive class and the samples from all other classes are considered as the negative class.
+
+Quantizer - similiar to a unit step function
+
+## Quick Rundown of Algorithm
+
+- Simple and intuitive learning algorithm
+- Requires that two classes of data are linearly seperable
+- Dependent on learning rate to be small enough
+
+
+
