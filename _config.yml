@@ -13,8 +13,8 @@ description: > #Another place on the internet for how-tos aimed at sharing
   information about open source development and tools.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-
-url: "http://sheffconsulting.com" # the base hostname & protocol for your site, e.g. http://example.com
+domain: mastash3ff.github.io
+url: "https://mastash3ff.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: bsheffield2008
 github_username:  mastash3ff
